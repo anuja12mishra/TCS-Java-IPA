@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TCS IPA | Full Syllabus Q&A + Coding</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body> 
+
+<div class="header">
+    <h1>☕ TCS IPA - Complete Syllabus Q&A</h1>
+    <p>KYT · BizSkill · UI · Unix · Java/Python · SQL · Coding Problems</p>
+</div>
+
+<!-- Syllabus Menu Bar (unchanged, shows exam pattern) -->
+<div class="syllabus-wrapper">
+    <div class="syllabus-container">
+        <h2 style="width: 100%; text-align: center; margin-bottom: 20px; color: var(--primary-dark);">Syllabus</h2>
+        <div class="syllabus-section">
+            <div class="section-title">📖 MCQ Section <span class="marks-badge">50 Marks</span></div>
+            <div class="syllabus-grid">
+                <div class="syllabus-item" data-topic="kyt" data-marks="5">
+                    <span class="topic-name">KYT</span>
+                    <span class="marks">5</span>
+                    <span class="tooltip-text">TCS history, CEO, awards, subsidiaries, milestones</span>
+                </div>
+                <div class="syllabus-item" data-topic="bizskill" data-marks="5">
+                    <span class="topic-name">BizSkill</span>
+                    <span class="marks">5</span>
+                    <span class="tooltip-text">Professional ethics, business communication, situation-based Qs</span>
+                </div>
+                <div class="syllabus-item" data-topic="ui" data-marks="10">
+                    <span class="topic-name">UI</span>
+                    <span class="marks">10</span>
+                    <span class="tooltip-text">HTML, CSS, JavaScript syntax and basics</span>
+                </div>
+                <div class="syllabus-item" data-topic="unix" data-marks="5">
+                    <span class="topic-name">Unix</span>
+                    <span class="marks">5</span>
+                    <span class="tooltip-text">Basic Unix/Linux commands and OS concepts</span>
+                </div>
+                <div class="syllabus-item" data-topic="java-python" data-marks="15">
+                    <span class="topic-name">Java/Python</span>
+                    <span class="marks">15</span>
+                    <span class="tooltip-text">Core language concepts based on your choice</span>
+                </div>
+                <div class="syllabus-item" data-topic="sql" data-marks="10">
+                    <span class="topic-name">SQL/PLSQL</span>
+                    <span class="marks">10</span>
+                    <span class="tooltip-text">Database queries and fundamentals</span>
+                </div>
+            </div>
+        </div>
+        <div class="syllabus-section">
+            <div class="section-title">💻 Coding Section <span class="marks-badge">50 Marks</span></div>
+            <div class="syllabus-grid">
+                <div class="syllabus-item" data-topic="coding" data-marks="15+35">
+                    <span class="topic-name">Coding Problems</span>
+                    <span class="marks">50</span>
+                    <span class="tooltip-text">Problem 1 (15): Strings, arrays, loops. Problem 2 (35): OOP, filtering, aggregation.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Topic selector for Q&A (expanded) -->
+<div class="topic-selector">
+    <select id="topic-selector" aria-label="Select exam section">
+        <option value="kyt">🏢 KYT - Know Your TCS</option>
+        <option value="bizskill">💼 BizSkill - Business Communication</option>
+        <option value="ui">🎨 UI - HTML & CSS</option>
+        <option value="unix">🐧 Unix - Linux Commands</option>
+        <option value="javapython">☕🐍 Java & Python MCQs</option>
+        <option value="sql">🗄️ SQL / PLSQL</option>
+        <option value="coding">💻 Coding Problems (2 Problems)</option>
+        <option value="oops">📦 OOPS Concepts (Deep Dive)</option>
+        <option value="dsa">⚙️ Data Structures & Algorithms</option>
+        <option value="core-java">🔥 Core Java Fundamentals</option>
+    </select>
+</div>
+
+<!-- Q&A container (unchanged) -->
+<div class="question-answer-container">
+    <div class="question-number" id="question-no">Question 1</div>
+    <div class="question-answer">
+        <div>
+            <h4>📌 Question:</h4>
+            <p id="question">Loading questions...</p>
+        </div>
+        <div>
+            <h4>💡 Answer:</h4>
+            <p id="answer">Select a topic to begin.</p>
+        </div>
+    </div>
+    <div class="nav-buttons">
+        <button id="prevBtn" aria-label="Previous question">◀ Previous</button>
+        <button id="nextBtn" aria-label="Next question">Next ▶</button>
+    </div>
+    <div class="counter" id="counter">— of —</div>
+</div>
+<footer>🎯 Complete TCS IPA syllabus • Real MCQs & coding solutions • Updated 2026</footer>
+
+<script src="./data.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
