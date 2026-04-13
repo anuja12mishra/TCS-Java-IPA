@@ -1,5 +1,12 @@
-
 import java.util.Scanner;
+
+/**
+ * Question: Create a class Brand with attributes (name, discountPercentage, chairs).
+ * Create a class Chair with attributes (model, color, price).
+ * Implement a main method to read N brands, each containing multiple chairs.
+ * Search for a brand by name and print the discounted price of all its chairs.
+ * If the brand is not found, print "Discounted chairs are unavailable in the given brand."
+ */
 
 class Chair{
     private String model;

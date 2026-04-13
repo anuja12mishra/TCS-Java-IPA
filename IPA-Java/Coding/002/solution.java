@@ -1,6 +1,11 @@
-// question: in the given input count the number of lowercase letters in the string and print the count. If there are no lowercase letters, print 0.
-// input: DataBaSe
-// output: 5
+/**
+ * Question: Count the number of lowercase letters in a string and print the count.
+ * If there are no lowercase letters, print 0.
+ *
+ * Example:
+ * input: DataBaSe
+ * output: 5
+ */
 
 import java.util.*;
 
@@ -15,5 +20,6 @@ public class solution {
             }
         }
        System.err.println(count);
+       sc.close();
     }
 }

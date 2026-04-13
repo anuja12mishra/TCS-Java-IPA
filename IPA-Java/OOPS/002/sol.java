@@ -1,3 +1,9 @@
+/**
+ * Question: Create a class Course with attributes (courseId, courseName, courseAdmin, quiz, handson).
+ * Implement two static methods:
+ * 1. findAvgOfQuizByAdmin: Find average quiz questions for a given admin.
+ * 2. sortCourseByHandsOn: Return courses with hands-on less than given value, sorted ascending.
+ */
 
 import java.util.ArrayList;
 import java.util.Scanner;

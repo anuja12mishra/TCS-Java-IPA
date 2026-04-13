@@ -1,6 +1,10 @@
-// Question: in the given input calculate the no of spaces and character
-// input => Hi I am a student
-// output => 4 13
+/**
+ * Question: Count the number of spaces and alphabetic characters in a given string.
+ *
+ * Example:
+ * input => Hi I am a student
+ * output => 4 13
+ */
 import java.util.Scanner;
 public class solution {
     public static void main(String[] args) {
@@ -18,5 +22,6 @@ public class solution {
             }
         }
         System.err.println("Space count: "+spaceCount+" Character count: "+CharCount);
+        sc.close();
     }
 }

@@ -1,3 +1,8 @@
+/**
+ * Question: Create a class Medicine with attributes (medicineId, medicineName, medicineType, price).
+ * Implement a method countMedicinesByMedicineName which takes an array of medicines and a name string,
+ * and returns the count of medicines with that name (case-insensitive).
+ */
 import java.util.Scanner;
 
 class Medicine {

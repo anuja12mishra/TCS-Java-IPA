@@ -2,10 +2,14 @@
 import java.util.Scanner;
 
 
-// Find Largest word from a given Sentence.
-// if two string have same Length then print the first one.
-// Input: TCS is the best Company ever
-// Output: Company
+/**
+ * Question: Find the largest word from a given sentence.
+ * If two words have the same length, print the first one.
+ *
+ * Example:
+ * Input: TCS is the best Company ever
+ * Output: Company
+ */
 
 public class solution {
     public static void main(String[] args) {
@@ -20,5 +24,6 @@ public class solution {
             }
         }
         System.out.println(ans);
+        sc.close();
     }
 }

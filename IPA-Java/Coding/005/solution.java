@@ -1,7 +1,11 @@
-// Write a program to print the Lost character of every word in a string
-// Conditions Ignore all the digits and whitespaces
-// Input: Hey3 Java Learners 
-// Output: as
+/**
+ * Question: Print the last character of every word in a string.
+ * Ignore all digits and whitespaces.
+ *
+ * Example:
+ * Input: Hey3 Java Learners
+ * Output: as
+ */
 
 import java.util.Scanner;
 public class solution {
@@ -18,5 +22,6 @@ public class solution {
             }
         }
         System.out.println(ans);
+        sc.close();
     }
 }

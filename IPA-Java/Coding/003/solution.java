@@ -1,6 +1,10 @@
-// question remove duplicate elements
-// input=> experience
-// output=> exprinc
+/**
+ * Question: Remove duplicate characters from a string while preserving original order.
+ *
+ * Example:
+ * input => experience
+ * output => exprinc
+ */
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 public class solution {
@@ -17,5 +21,6 @@ public class solution {
             ans = ans+ch;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

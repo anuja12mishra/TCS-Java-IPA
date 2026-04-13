@@ -1,10 +1,13 @@
-
-import java.util.Scanner;
-
-// Example 
-// input => Xplore
-// character input  => r
-// output => 4
+/**
+ * Question: Find the index of the first occurrence of a character in a string.
+ * Print the index if found, else print "Character not found".
+ *
+ * Example:
+ * input => Xplore
+ * character input => r
+ * output => 4
+ */
+import java.util.*;
 public class solution {
     public static void main(String []arfgs){
         Scanner sc = new Scanner(System.in);
@@ -19,5 +22,6 @@ public class solution {
             }
         }
         System.out.println("Character not found");
+        sc.close();
     }
 }
