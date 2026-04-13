@@ -351,4 +351,19 @@ footer {
     font-size: 0.75rem;
     color: #5c6f87;
     margin: 20px 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: #1e3c72;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+footer img{
+    margin-left: 5px;
+    border-radius: 50%;
 }
